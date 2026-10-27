@@ -42,8 +42,9 @@ node_modules/
 
 # Local datasets and disposable model files
 /data/
-/models/pretrained/
-/models/test/
+**/data/raw/
+**/models/pretrained/
+**/models/test/
 **/temporary-checkpoints/
 
 # Disposable experiment tracking caches

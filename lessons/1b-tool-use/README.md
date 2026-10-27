@@ -2,7 +2,7 @@
 
 - 官方日期：2026 · Thu, Aug 27（沿用官网日期）
 - 课程分组：Introduction and Agent Capabilities
-- 学习状态：未开始
+- 学习状态：[见课程索引](../README.md)
 - 资源核对日期：2026-10-27
 
 ## 学习入口
@@ -10,7 +10,7 @@
 - [课程笔记](notes.md)
 - [论文与参考资料](#论文与参考资料)
 - [代码实验](#代码实验)
-- [实验记录](experiments.md)
+- [实验索引](experiments.md)
 - [全部课程](../README.md)
 
 ## 官方资源
@@ -27,7 +27,7 @@
 | --- | --- | --- | --- |
 | [What Are Tools Anyway?](https://arxiv.org/abs/2403.15452) | Readings | 选读（待确定精读项） | 未阅读 |
 | [CodeAct](https://arxiv.org/abs/2402.01030) | Readings | 选读（待确定精读项） | 未阅读 |
-| [Toolformer](https://arxiv.org/abs/2302.04761) | Readings | 选读（待确定精读项） | 未阅读 |
+| [Toolformer](https://arxiv.org/abs/2302.04761) · [论文目录](../../references/papers/2302.04761-toolformer/) · [PDF](../../references/papers/2302.04761-toolformer/paper.pdf) · [阅读笔记](../../references/papers/2302.04761-toolformer/notes.md) | Readings | 选读（待确定精读项） | [以阅读笔记为准](../../references/papers/2302.04761-toolformer/notes.md) |
 | [XGrammar](https://arxiv.org/abs/2411.15100) | Readings | 选读（待确定精读项） | 未阅读 |
 | [OpenAI Chat Completions API](https://platform.openai.com/docs/api-reference/chat/create) | References | 参考 | 未阅读 |
 | [Hugging Face Chat Templates](https://huggingface.co/docs/transformers/chat_templating) | References | 参考 | 未阅读 |
@@ -56,11 +56,11 @@
 | [FastMCP Token Verification](https://gofastmcp.com/servers/auth/token-verification) | References | 参考 | 未阅读 |
 | [FastMCP Bearer Client Authentication](https://gofastmcp.com/clients/auth/bearer) | References | 参考 | 未阅读 |
 
-阅读笔记按需放入 `papers/<资料简称>.md`，记录问题、方法、证据、局限与个人理解。原文统一保存在 `../../references/pdfs/` 并纳入 Git，在本节补充实际文件路径、版本与获取日期；当前尚未下载。
+论文原文和阅读笔记统一维护在 `references/papers/<论文ID>-<简称>/`，通过本 README 的相对 Markdown 链接访问。来源、版本、获取日期和阅读状态在统一笔记中维护；课程特定思考写入本课 `notes.md`。维护方法见 [论文索引](../../references/README.md)。
 
 ## 代码实验
 
-状态：待实现。代码放在 `code/`，开始实验时在本节补充目标、依赖、入口、运行命令、输入与预期行为。共享组件位于 `../../src/agent_study/`，结果与失败原因记录在 [实验记录](experiments.md)。当前尚未初始化运行环境或实现代码。
+本课实验放在 `experiments/<实验名>/`，代码、配置、结果和最终模型随实验保存，运行方式与结论写入该实验的 `notes.md`。已有实验见 [实验索引](experiments.md)。跨课复用组件按需提取到 `../../src/agent_study/`；当前尚未建立课程实验。
 
 ## 学习目标
 
