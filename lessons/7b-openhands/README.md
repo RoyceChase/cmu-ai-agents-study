@@ -30,13 +30,13 @@
 | [OpenHands SDK source and examples](https://github.com/OpenHands/software-agent-sdk/tree/69e26889401fe69157fff536e6a69049e6644cb3) | References | 参考 | 未阅读 |
 | [OpenHands](https://github.com/OpenHands/OpenHands) | References | 参考 | 未阅读 |
 | [HumanEval](https://arxiv.org/abs/2107.03374) | References | 参考 | 未阅读 |
-| [SWE-bench](https://arxiv.org/abs/2310.06770v1) | References | 参考 | 未阅读 |
+| [SWE-bench](https://arxiv.org/abs/2310.06770v1) · [论文目录](../../references/papers/2310.06770-swe-bench/) · [PDF](../../references/papers/2310.06770-swe-bench/paper.pdf) · [阅读笔记](../../references/papers/2310.06770-swe-bench/notes.md) | References | 参考 | [以阅读笔记为准](../../references/papers/2310.06770-swe-bench/notes.md) |
 | [Devin launch demo](https://www.youtube.com/watch?v=fjHtjT7GO1c) | References | 参考 | 未阅读 |
 | [OpenDevin: original callout](https://x.com/JustinLin610/status/1767769034186211557) | References | 参考 | 未阅读 |
 | [OpenDevin: early frontend demo](https://x.com/gneubig/status/1772735837479792761) | References | 参考 | 未阅读 |
 | [SWE-agent](https://arxiv.org/abs/2405.15793) | References | 参考 | 未阅读 |
 | [OpenDevin CodeAct 1.0](https://xwang.dev/blog/2024/opendevin-codeact-1.0-swebench/) | References | 参考 | 未阅读 |
-| [Don't Sleep on Single-agent Systems](https://hub.openhands.dev/blog/dont-sleep-on-single-agent-systems) | References | 参考 | 未阅读 |
+| [Don't Sleep on Single-agent Systems](https://hub.openhands.dev/blog/dont-sleep-on-single-agent-systems) · [资料目录](../../references/articles/openhands-single-agent-systems/) · [PDF](../../references/articles/openhands-single-agent-systems/article.pdf) · [阅读笔记](../../references/articles/openhands-single-agent-systems/notes.md) | References | 参考 | [以阅读笔记为准](../../references/articles/openhands-single-agent-systems/notes.md) |
 | [CodeR](https://arxiv.org/abs/2406.01304) | References | 参考 | 未阅读 |
 | [MetaGPT](https://arxiv.org/abs/2308.00352) | References | 参考 | 未阅读 |
 | [OpenHands-Versa](https://arxiv.org/abs/2506.03011v1) | References | 参考 | 未阅读 |

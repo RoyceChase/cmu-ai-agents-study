@@ -1,12 +1,38 @@
-# 论文索引
+# 参考资料索引
 
-统一关联论文来源、仓库中的 PDF 和阅读笔记。同一篇论文只维护一份原文和一份主要阅读笔记，课程中的特定思考可补充到对应课的 `notes.md`。
+统一关联资料来源、仓库中的 PDF 和阅读笔记。学术论文放在 `papers/`，工程文章放在 `articles/`；每份资料的原文和笔记放在一起，课程只引用。课程中的特定思考可补充到对应课的 `notes.md`。
+
+[官网完整资料清单与个人阅读建议](reading-guide.md)：按课程列出论文、技术报告及其他参考资源，并区分适合当前目标的阅读优先级。此清单不表示已下载或已阅读。
+
+## 学术论文
 
 | 论文 | 在线来源 | 原文 PDF | 阅读笔记 | 关联课程 |
 | --- | --- | --- | --- | --- |
 | Toolformer: Language Models Can Teach Themselves to Use Tools | [arXiv:2302.04761](https://arxiv.org/abs/2302.04761) | [PDF](papers/2302.04761-toolformer/paper.pdf) | [Toolformer 阅读笔记](papers/2302.04761-toolformer/notes.md) | [1a](../lessons/1a-agent-overview/README.md)、[1b](../lessons/1b-tool-use/README.md) |
+| ReAct: Synergizing Reasoning and Acting in Language Models | [arXiv:2210.03629](https://arxiv.org/abs/2210.03629) | [PDF](papers/2210.03629-ReAct/paper.pdf) | [ReAct 阅读笔记](papers/2210.03629-ReAct/notes.md) | [1a](../lessons/1a-agent-overview/README.md)、[4a](../lessons/4a-computer-use-agents/README.md) |
+| Executable Code Actions Elicit Better LLM Agents | [arXiv:2402.01030v4](https://arxiv.org/abs/2402.01030v4) | [PDF](papers/2402.01030-codeact/paper.pdf) | [CodeAct 阅读笔记](papers/2402.01030-codeact/notes.md) | [1b](../lessons/1b-tool-use/README.md) |
+| MemGPT: Towards LLMs as Operating Systems | [arXiv:2310.08560v2](https://arxiv.org/abs/2310.08560v2) | [PDF](papers/2310.08560-memgpt/paper.pdf) | [MemGPT 阅读笔记](papers/2310.08560-memgpt/notes.md) | [2a](../lessons/2a-context-management/README.md)、[2b](../lessons/2b-skills-and-memory/README.md) |
+| Reflexion: Language Agents with Verbal Reinforcement Learning | [arXiv:2303.11366v4](https://arxiv.org/abs/2303.11366v4) | [PDF](papers/2303.11366-reflexion/paper.pdf) | [Reflexion 阅读笔记](papers/2303.11366-reflexion/notes.md) | [2b](../lessons/2b-skills-and-memory/README.md) |
+| SWE-bench: Can Language Models Resolve Real-World GitHub Issues? | [arXiv:2310.06770v3](https://arxiv.org/abs/2310.06770v3) | [PDF](papers/2310.06770-swe-bench/paper.pdf) | [SWE-bench 阅读笔记](papers/2310.06770-swe-bench/notes.md) | [3b](../lessons/3b-coding-agents/README.md)、[7b](../lessons/7b-openhands/README.md) |
+| Agentless: Demystifying LLM-based Software Engineering Agents | [arXiv:2407.01489v2](https://arxiv.org/abs/2407.01489v2) | [PDF](papers/2407.01489-agentless/paper.pdf) | [Agentless 阅读笔记](papers/2407.01489-agentless/notes.md) | [3b](../lessons/3b-coding-agents/README.md) |
+| AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents | [arXiv:2406.13352v3](https://arxiv.org/abs/2406.13352v3) | [PDF](papers/2406.13352-agentdojo/paper.pdf) | [AgentDojo 阅读笔记](papers/2406.13352-agentdojo/notes.md) | [7a](../lessons/7a-agent-safety/README.md) |
 
 Toolformer 网页元数据已于 2026-10-27 核对；arXiv 页面列出 v1。本地 PDF 的具体版本尚未核对，原始下载日期未记录，不能直接将网页版本当作本地文件版本。
+
+## 技术文章
+
+| 文章 | 在线来源 | 本地 PDF | 阅读笔记 | 关联课程 |
+| --- | --- | --- | --- | --- |
+| Building effective agents · Anthropic | [官方网页](https://www.anthropic.com/engineering/building-effective-agents) | [PDF](articles/anthropic-building-effective-agents/article.pdf) | [阅读笔记](articles/anthropic-building-effective-agents/notes.md) | [3a](../lessons/3a-planning-and-coordination/README.md)、[9a](../lessons/9a-orchestration-and-monitoring/README.md) |
+| Writing effective tools for AI agents · Anthropic | [官方网页](https://www.anthropic.com/engineering/writing-tools-for-agents) | [PDF](articles/anthropic-writing-effective-tools/article.pdf) | [阅读笔记](articles/anthropic-writing-effective-tools/notes.md) | [1b](../lessons/1b-tool-use/README.md)（个人补充） |
+| Effective context engineering for AI agents · Anthropic | [官方网页](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) | [PDF](articles/anthropic-effective-context-engineering/article.pdf) | [阅读笔记](articles/anthropic-effective-context-engineering/notes.md) | [2a](../lessons/2a-context-management/README.md)（个人补充） |
+| How to Create Effective Agent Skills · OpenHands | [官方网页](https://www.openhands.dev/blog/20260227-creating-effective-agent-skills) | [PDF](articles/openhands-effective-agent-skills/article.pdf) | [阅读笔记](articles/openhands-effective-agent-skills/notes.md) | [2b](../lessons/2b-skills-and-memory/README.md) |
+| Don't Sleep on Single-agent Systems · OpenHands | [官方网页](https://www.openhands.dev/blog/dont-sleep-on-single-agent-systems) | [PDF](articles/openhands-single-agent-systems/article.pdf) | [阅读笔记](articles/openhands-single-agent-systems/notes.md) | [3a](../lessons/3a-planning-and-coordination/README.md)、[7b](../lessons/7b-openhands/README.md)、[9a](../lessons/9a-orchestration-and-monitoring/README.md) |
+| Diagnosing a performance regression on Terminal-Bench with Docent · Transluce / The Docent Team | [官方网页](https://transluce.org/docent/blog/terminal-bench) | [PDF](articles/transluce-terminal-bench-regression/article.pdf) | [阅读笔记](articles/transluce-terminal-bench-regression/notes.md) | [9a](../lessons/9a-orchestration-and-monitoring/README.md) |
+
+技术文章使用 `articles/<机构>-<主题>/`，网页导出原文保存为 `article.pdf`，阅读笔记保存为 `notes.md`。记录来源、发布日期、快照日期与阅读状态；不额外创建分类索引或单篇 README。网页保存为 PDF 不改变原资料的类型。
+
+当前 BibTeX 脚本只同步索引中具有 arXiv 链接的论文行，技术文章不参与自动同步。
 
 ## 新增论文
 
@@ -23,13 +49,53 @@ Toolformer 网页元数据已于 2026-10-27 核对；arXiv 页面列出 v1。本
 references/
 ├── README.md
 ├── bibliography.bib
+├── articles/
+│   ├── anthropic-building-effective-agents/
+│   │   ├── article.pdf
+│   │   └── notes.md
+│   ├── anthropic-effective-context-engineering/
+│   │   ├── article.pdf
+│   │   └── notes.md
+│   ├── anthropic-writing-effective-tools/
+│   │   ├── article.pdf
+│   │   └── notes.md
+│   ├── openhands-effective-agent-skills/
+│   │   ├── article.pdf
+│   │   └── notes.md
+│   ├── openhands-single-agent-systems/
+│   │   ├── article.pdf
+│   │   └── notes.md
+│   └── transluce-terminal-bench-regression/
+│       ├── article.pdf
+│       └── notes.md
 └── papers/
-    └── 2302.04761-toolformer/
+    ├── 2210.03629-ReAct/
+    │   ├── paper.pdf
+    │   └── notes.md
+    ├── 2302.04761-toolformer/
+    │   ├── paper.pdf
+    │   └── notes.md
+    ├── 2303.11366-reflexion/
+    │   ├── paper.pdf
+    │   └── notes.md
+    ├── 2310.06770-swe-bench/
+    │   ├── paper.pdf
+    │   └── notes.md
+    ├── 2310.08560-memgpt/
+    │   ├── paper.pdf
+    │   └── notes.md
+    ├── 2402.01030-codeact/
+    │   ├── paper.pdf
+    │   └── notes.md
+    ├── 2406.13352-agentdojo/
+    │   ├── paper.pdf
+    │   └── notes.md
+    └── 2407.01489-agentless/
         ├── paper.pdf
         └── notes.md
 ```
 
-每篇论文的原文、阅读笔记和可选批注副本集中在一个目录。课程不设 `papers/` 目录，仅在 README 中维护相对 Markdown 链接，例如：
+每篇论文或技术文章的原文、阅读笔记和可选批注副本集中在一个目录。课程不设 `papers/` 目录，仅在 README 中维护相对 Markdown 链接，例如：
 
 ```markdown
 [论文目录](../../references/papers/2302.04761-toolformer/)
@@ -69,4 +135,4 @@ python scripts/update_bibliography.py --metadata-file .cache/arxiv.xml
 - 高亮和页边注释用于阅读过程中的定位。需要持久保存时，另存为同一论文目录中的 `paper-annotated.pdf`，并在对应笔记中添加链接；批注副本也可纳入 Git。
 - 关键理解、疑问和结论应整理进 Markdown，不只留在高亮中。PDF 是二进制文件，不便查看逐行差异或合并多人修改，因此不必每次高亮后都单独提交副本。
 
-当前已收录一份 Toolformer 原文，阅读笔记仅为模板，未据此标记已阅读。
+当前已收录优先清单中的 8 篇论文原文和 6 篇技术文章。新下载的 6 篇使用明确的版本链接；原有两篇的本地版本仍待核对。各篇阅读状态以对应笔记为准，新增笔记模板不代表已阅读。

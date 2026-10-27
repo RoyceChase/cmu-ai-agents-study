@@ -30,7 +30,7 @@
 | [Microsoft advisory: CVE-2025-32711](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-32711) | References | 参考 | 未阅读 |
 | [Cline supply-chain compromise postmortem](https://cline.bot/blog/post-mortem-unauthorized-cline-cli-npm) | References | 参考 | 未阅读 |
 | [Gambit Security: AI agents targeting online retailers](https://gambit.security/blog-posts/autonomous-ai-agents-online-retailers-25-a-company) | References | 参考 | 未阅读 |
-| [AgentDojo](https://arxiv.org/abs/2406.13352v3) | References | 参考 | 未阅读 |
+| [AgentDojo](https://arxiv.org/abs/2406.13352v3) · [论文目录](../../references/papers/2406.13352-agentdojo/) · [PDF](../../references/papers/2406.13352-agentdojo/paper.pdf) · [阅读笔记](../../references/papers/2406.13352-agentdojo/notes.md) | References | 参考 | [以阅读笔记为准](../../references/papers/2406.13352-agentdojo/notes.md) |
 | [ToolEmu](https://arxiv.org/abs/2309.15817v2) | References | 参考 | 未阅读 |
 | [Introducing Docent](https://transluce.org/docent/blog/introducing-docent) | References | 参考 | 未阅读 |
 | [Gray Swan Arena: Agent Red-Teaming Challenge](https://app.grayswan.ai/arena/challenge/agent-red-teaming/leaderboard) | References | 参考 | 未阅读 |

@@ -45,12 +45,12 @@
 | [NoFunEval](https://arxiv.org/abs/2401.15963) | References | 参考 | 未阅读 |
 | [DeepCoder](https://www.together.ai/blog/deepcoder) | References | 参考 | 未阅读 |
 | [SWE-agent](https://arxiv.org/abs/2405.15793) | References | 参考 | 未阅读 |
-| [Agentless](https://arxiv.org/abs/2407.01489) | References | 参考 | 未阅读 |
+| [Agentless](https://arxiv.org/abs/2407.01489) · [论文目录](../../references/papers/2407.01489-agentless/) · [PDF](../../references/papers/2407.01489-agentless/paper.pdf) · [阅读笔记](../../references/papers/2407.01489-agentless/notes.md) | References | 参考 | [以阅读笔记为准](../../references/papers/2407.01489-agentless/notes.md) |
 | [mini-SWE-agent](https://mini-swe-agent.com/latest/) | References | 参考 | 未阅读 |
 | [Aider edit formats](https://aider.chat/docs/more/edit-formats.html) | References | 参考 | 未阅读 |
 | [Aider unified diffs](https://aider.chat/docs/unified-diffs.html) | References | 参考 | 未阅读 |
 | [LocAgent](https://arxiv.org/abs/2503.09089) | References | 参考 | 未阅读 |
-| [SWE-bench](https://arxiv.org/abs/2310.06770) | References | 参考 | 未阅读 |
+| [SWE-bench](https://arxiv.org/abs/2310.06770) · [论文目录](../../references/papers/2310.06770-swe-bench/) · [PDF](../../references/papers/2310.06770-swe-bench/paper.pdf) · [阅读笔记](../../references/papers/2310.06770-swe-bench/notes.md) | References | 参考 | [以阅读笔记为准](../../references/papers/2310.06770-swe-bench/notes.md) |
 | [SWE-Gym](https://arxiv.org/abs/2412.21139) | References | 参考 | 未阅读 |
 | [R2E-Gym](https://arxiv.org/abs/2504.07164) | References | 参考 | 未阅读 |
 | [SWE-smith](https://arxiv.org/abs/2504.21798) | References | 参考 | 未阅读 |

@@ -11,7 +11,7 @@
 - [课程学习索引](lessons/README.md)：23 个授课条目的笔记、资料与实验入口。
 - [官方完整日程](course/README.md)：30 个日程项，包括休课、项目时间与海报展示。
 - [从第一课开始](lessons/1a-agent-overview/README.md)。
-- [论文索引与维护方法](references/README.md)、[文献目录](references/bibliography.bib)与[论文与笔记](references/papers/)。
+- [参考资料索引与维护方法](references/README.md)、[文献目录](references/bibliography.bib)与[论文与笔记](references/papers/)。
 - 综合作业：[Harness](assignments/harness/)、[Eval](assignments/eval/)、[Training](assignments/training/)。
 - [共享代码](src/agent_study/)、[综合项目](projects/)、[代码验证](tests/)。
 
@@ -57,12 +57,25 @@ cmu-ai-agents-study/
 │   ├── 13b-guest-lecture/
 │   └── 14a-guest-lecture/
 ├── references/
-│   ├── README.md                 # 论文来源、PDF 与阅读笔记的统一索引
+│   ├── README.md                 # 论文、技术文章与阅读笔记的统一索引
+│   ├── reading-guide.md          # 官网资料完整清单与个人阅读建议
 │   ├── bibliography.bib          # 统一文献目录
-│   └── papers/                   # 统一论文资料，纳入 Git
-│       └── 2302.04761-toolformer/
-│           ├── paper.pdf         # 原始论文
-│           └── notes.md          # 共用阅读笔记
+│   ├── articles/                 # 每篇技术文章包含 article.pdf 和 notes.md
+│   │   ├── anthropic-building-effective-agents/
+│   │   ├── anthropic-effective-context-engineering/
+│   │   ├── anthropic-writing-effective-tools/
+│   │   ├── openhands-effective-agent-skills/
+│   │   ├── openhands-single-agent-systems/
+│   │   └── transluce-terminal-bench-regression/
+│   └── papers/                   # 每篇论文包含原文和共用阅读笔记
+│       ├── 2210.03629-ReAct/
+│       ├── 2302.04761-toolformer/
+│       ├── 2303.11366-reflexion/
+│       ├── 2310.06770-swe-bench/
+│       ├── 2310.08560-memgpt/
+│       ├── 2402.01030-codeact/
+│       ├── 2406.13352-agentdojo/
+│       └── 2407.01489-agentless/
 ├── src/
 │   └── agent_study/              # 跨课共用代码
 ├── assignments/
@@ -135,6 +148,7 @@ Python 随课程实验补充，先掌握环境管理、模块、类型提示、�
 
 ## 资源与实验管理
 
+- 技术文章使用 `references/articles/<机构>-<主题>/`，保存 `article.pdf` 与 `notes.md`；学术论文继续放在 `papers/`。每份资料集中维护，课程只引用。
 - 每篇论文建立 `references/papers/<论文ID>-<简称>/`，将原文 `paper.pdf` 与主要阅读笔记 `notes.md` 放在一起。阅读优先级在课程 README 中维护，阅读状态以统一笔记为准。
 - 论文 PDF、阅读笔记与来源索引一起纳入 Git。各课程仅在 README 中使用相对 Markdown 链接引用统一论文目录、PDF 和笔记，维护方法见 [论文索引](references/README.md#目录与课程引用)。
 - 以 Python 作为代码实验的默认语言，具体依赖与运行方式随实验建立；当前尚未初始化运行环境。
@@ -168,4 +182,4 @@ Python 随课程实验补充，先掌握环境管理、模块、类型提示、�
 - [ ] 开始第一课学习，验证笔记与实验组织方式。
 - [ ] 初始化代码环境并完成首个实验。
 
-课程学习状态见 [课程索引](lessons/README.md)。已收录 Toolformer PDF 和阅读笔记模板；阅读状态见该论文笔记，实际作业与项目开始时再补充内容。
+课程学习状态见 [课程索引](lessons/README.md)。已收录优先清单中的 8 篇论文和 6 篇技术文章 PDF，以及各自的阅读笔记入口；阅读状态见各篇论文笔记，实际作业与项目开始时再补充内容。

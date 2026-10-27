@@ -34,7 +34,7 @@
 | [Multi-Agent Computer Use (MACU)](https://arxiv.org/abs/2606.01533) | Readings | 选读（待确定精读项） | 未阅读 |
 | [MiniWoB](https://arxiv.org/abs/1704.04368) | References | 参考 | 未阅读 |
 | [WebShop](https://arxiv.org/abs/2207.01206) | References | 参考 | 未阅读 |
-| [ReAct](https://arxiv.org/abs/2210.03629) | References | 参考 | 未阅读 |
+| [ReAct](https://arxiv.org/abs/2210.03629) · [论文目录](../../references/papers/2210.03629-ReAct/) · [PDF](../../references/papers/2210.03629-ReAct/paper.pdf) · [阅读笔记](../../references/papers/2210.03629-ReAct/notes.md) | References | 参考 | [以阅读笔记为准](../../references/papers/2210.03629-ReAct/notes.md) |
 | [Mind2Web](https://arxiv.org/abs/2306.06070) | References | 参考 | 未阅读 |
 | [WebVoyager](https://arxiv.org/abs/2401.13919) | References | 参考 | 未阅读 |
 | [ScreenSpot-Pro](https://arxiv.org/abs/2504.07981) | References | 参考 | 未阅读 |

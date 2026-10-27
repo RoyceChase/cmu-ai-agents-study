@@ -26,7 +26,7 @@
 | 资料 | 官网分类 | 阅读优先级 | 状态 |
 | --- | --- | --- | --- |
 | [Toolformer](https://arxiv.org/abs/2302.04761) · [论文目录](../../references/papers/2302.04761-toolformer/) · [PDF](../../references/papers/2302.04761-toolformer/paper.pdf) · [阅读笔记](../../references/papers/2302.04761-toolformer/notes.md) | Readings | 选读（待确定精读项） | [以阅读笔记为准](../../references/papers/2302.04761-toolformer/notes.md) |
-| [ReAct](https://arxiv.org/abs/2210.03629) | Readings | 选读（待确定精读项） | 未阅读 |
+| [ReAct](https://arxiv.org/abs/2210.03629) · [论文目录](../../references/papers/2210.03629-ReAct/) · [PDF](../../references/papers/2210.03629-ReAct/paper.pdf) · [阅读笔记](../../references/papers/2210.03629-ReAct/notes.md) | Readings | 选读（待确定精读项） | [以阅读笔记为准](../../references/papers/2210.03629-ReAct/notes.md) |
 | [Mini-SWE-Agent](https://github.com/swe-agent/mini-swe-agent) | Readings | 选读（待确定精读项） | 未阅读 |
 
 论文原文和阅读笔记统一维护在 `references/papers/<论文ID>-<简称>/`，通过本 README 的相对 Markdown 链接访问。来源、版本、获取日期和阅读状态在统一笔记中维护；课程特定思考写入本课 `notes.md`。维护方法见 [论文索引](../../references/README.md)。

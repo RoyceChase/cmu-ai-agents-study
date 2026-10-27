@@ -19,6 +19,12 @@
 - [课件：Lecture 3 slides](https://www.cmu-agents.com/slides/lecture-03-long-context.pdf)
 - [视频：Lecture 3 recording](https://www.youtube.com/watch?v=AiwCCvFW1uE&list=PLSN0qpDfUvTM&index=3)
 
+## 补充阅读（个人推荐）
+
+- [Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) · [资料目录](../../references/articles/anthropic-effective-context-engineering/) · [PDF](../../references/articles/anthropic-effective-context-engineering/article.pdf) · [阅读笔记](../../references/articles/anthropic-effective-context-engineering/notes.md)
+
+以上为个人补充材料，不属于官网列出的本课 Readings 或 References。阅读状态以对应笔记为准。
+
 ## 论文与参考资料
 
 来源：[官方课表](https://www.cmu-agents.com/#/schedule)，核对日期：2026-10-27。资料可能包含论文、技术文档、博客和代码仓库；阅读优先级是本项目的初始建议。
@@ -59,7 +65,7 @@
 | [PagedAttention / vLLM](https://arxiv.org/abs/2309.06180) | References | 参考 | 未阅读 |
 | [SGLang / RadixAttention](https://arxiv.org/abs/2312.07104) | References | 参考 | 未阅读 |
 | [SGLang Cache-Aware Load Balancing](https://lmsys.org/blog/2024-12-04-sglang-v0-4/) | References | 参考 | 未阅读 |
-| [MemGPT](https://arxiv.org/abs/2310.08560) | References | 参考 | 未阅读 |
+| [MemGPT](https://arxiv.org/abs/2310.08560) · [论文目录](../../references/papers/2310.08560-memgpt/) · [PDF](../../references/papers/2310.08560-memgpt/paper.pdf) · [阅读笔记](../../references/papers/2310.08560-memgpt/notes.md) | References | 参考 | [以阅读笔记为准](../../references/papers/2310.08560-memgpt/notes.md) |
 | [LongLLMLingua](https://aclanthology.org/2024.acl-long.91/) | References | 参考 | 未阅读 |
 | [Codex](https://github.com/openai/codex) | References | 参考 | 未阅读 |
 | [OpenCode](https://github.com/anomalyco/opencode) | References | 参考 | 未阅读 |

@@ -25,9 +25,9 @@
 
 | 资料 | 官网分类 | 阅读优先级 | 状态 |
 | --- | --- | --- | --- |
-| [Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) | Readings | 选读（待确定精读项） | 未阅读 |
+| [Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) · [资料目录](../../references/articles/anthropic-building-effective-agents/) · [PDF](../../references/articles/anthropic-building-effective-agents/article.pdf) · [阅读笔记](../../references/articles/anthropic-building-effective-agents/notes.md) | Readings | 选读（待确定精读项） | [以阅读笔记为准](../../references/articles/anthropic-building-effective-agents/notes.md) |
 | [Thinking in LangGraph](https://docs.langchain.com/oss/python/langgraph/thinking-in-langgraph) | Readings | 选读（待确定精读项） | 未阅读 |
-| [Diagnosing a performance regression on Terminal-Bench with Docent](https://transluce.org/docent/blog/terminal-bench) | Readings | 选读（待确定精读项） | 未阅读 |
+| [Diagnosing a performance regression on Terminal-Bench with Docent](https://transluce.org/docent/blog/terminal-bench) · [资料目录](../../references/articles/transluce-terminal-bench-regression/) · [PDF](../../references/articles/transluce-terminal-bench-regression/article.pdf) · [阅读笔记](../../references/articles/transluce-terminal-bench-regression/notes.md) | Readings | 选读（待确定精读项） | [以阅读笔记为准](../../references/articles/transluce-terminal-bench-regression/notes.md) |
 | [Hodoscope: Unsupervised Monitoring for AI Misbehaviors](https://arxiv.org/abs/2604.11072) | Readings | 选读（待确定精读项） | 未阅读 |
 | [LangGraph: Workflows and agents](https://docs.langchain.com/oss/python/langgraph/workflows-agents) | References | 参考 | 未阅读 |
 | [LangGraph: Persistence](https://docs.langchain.com/oss/python/langgraph/persistence) | References | 参考 | 未阅读 |
@@ -47,7 +47,7 @@
 | [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/) | References | 参考 | 未阅读 |
 | [AG2 overview](https://docs.ag2.ai/latest/docs/user-guide/basic-concepts/overview/) | References | 参考 | 未阅读 |
 | [DSPy](https://dspy.ai/) | References | 参考 | 未阅读 |
-| [Don’t Sleep on Single-Agent Systems](https://hub.openhands.dev/blog/dont-sleep-on-single-agent-systems) | References | 参考 | 未阅读 |
+| [Don’t Sleep on Single-Agent Systems](https://hub.openhands.dev/blog/dont-sleep-on-single-agent-systems) · [资料目录](../../references/articles/openhands-single-agent-systems/) · [PDF](../../references/articles/openhands-single-agent-systems/article.pdf) · [阅读笔记](../../references/articles/openhands-single-agent-systems/notes.md) | References | 参考 | [以阅读笔记为准](../../references/articles/openhands-single-agent-systems/notes.md) |
 | [Agent Skills specification](https://agentskills.io/specification) | References | 参考 | 未阅读 |
 | [Multi-Agent Computer Use (MACU)](https://arxiv.org/abs/2606.01533) | References | 参考 | 未阅读 |
 | [OpenHands automations: Fujitsu talk slides](https://github.com/neubig/slides/tree/main/slides/2026-09-25-fujitsu-openhands-en) | References | 参考 | 未阅读 |

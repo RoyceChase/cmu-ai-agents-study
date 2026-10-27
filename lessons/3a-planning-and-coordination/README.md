@@ -45,7 +45,7 @@
 | [PlanBench](https://arxiv.org/abs/2206.10498) | References | 参考 | 未阅读 |
 | [ProgPrompt](https://arxiv.org/abs/2209.11302) | References | 参考 | 未阅读 |
 | [Binder](https://arxiv.org/abs/2210.02875) | References | 参考 | 未阅读 |
-| [Anthropic: Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents) | References | 参考 | 未阅读 |
+| [Anthropic: Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents) · [资料目录](../../references/articles/anthropic-building-effective-agents/) · [PDF](../../references/articles/anthropic-building-effective-agents/article.pdf) · [阅读笔记](../../references/articles/anthropic-building-effective-agents/notes.md) | References | 参考 | [以阅读笔记为准](../../references/articles/anthropic-building-effective-agents/notes.md) |
 | [UGround](https://arxiv.org/abs/2410.05243) | References | 参考 | 未阅读 |
 | [Agent S](https://arxiv.org/abs/2410.08164) | References | 参考 | 未阅读 |
 | [Language Models as Zero-Shot Planners](https://arxiv.org/abs/2201.07207) | References | 参考 | 未阅读 |
@@ -60,7 +60,7 @@
 | [Web Agents Should Adopt the Plan-Then-Execute Paradigm](https://arxiv.org/abs/2605.14290) | References | 参考 | 未阅读 |
 | [TravelPlanner](https://arxiv.org/abs/2402.01622) | References | 参考 | 未阅读 |
 | [Odysseys](https://odysseys-website.pages.dev/) | References | 参考 | 未阅读 |
-| [Don't Sleep on Single-Agent Systems](https://www.openhands.dev/blog/dont-sleep-on-single-agent-systems) | References | 参考 | 未阅读 |
+| [Don't Sleep on Single-Agent Systems](https://www.openhands.dev/blog/dont-sleep-on-single-agent-systems) · [资料目录](../../references/articles/openhands-single-agent-systems/) · [PDF](../../references/articles/openhands-single-agent-systems/article.pdf) · [阅读笔记](../../references/articles/openhands-single-agent-systems/notes.md) | References | 参考 | [以阅读笔记为准](../../references/articles/openhands-single-agent-systems/notes.md) |
 
 论文原文和阅读笔记统一维护在 `references/papers/<论文ID>-<简称>/`，通过本 README 的相对 Markdown 链接访问。来源、版本、获取日期和阅读状态在统一笔记中维护；课程特定思考写入本课 `notes.md`。维护方法见 [论文索引](../../references/README.md)。
 

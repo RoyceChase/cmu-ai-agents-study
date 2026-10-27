@@ -19,6 +19,12 @@
 - [课件：Lecture 2 slides](https://www.cmu-agents.com/slides/lecture-02-tool-use.pdf)
 - [视频：Lecture 2 recording](https://www.youtube.com/watch?v=jXChFB4JSyw&list=PLSN0qpDfUvTM&index=2)
 
+## 补充阅读（个人推荐）
+
+- [Writing effective tools for AI agents](https://www.anthropic.com/engineering/writing-tools-for-agents) · [资料目录](../../references/articles/anthropic-writing-effective-tools/) · [PDF](../../references/articles/anthropic-writing-effective-tools/article.pdf) · [阅读笔记](../../references/articles/anthropic-writing-effective-tools/notes.md)
+
+以上为个人补充材料，不属于官网列出的本课 Readings 或 References。阅读状态以对应笔记为准。
+
 ## 论文与参考资料
 
 来源：[官方课表](https://www.cmu-agents.com/#/schedule)，核对日期：2026-10-27。资料可能包含论文、技术文档、博客和代码仓库；阅读优先级是本项目的初始建议。
@@ -26,7 +32,7 @@
 | 资料 | 官网分类 | 阅读优先级 | 状态 |
 | --- | --- | --- | --- |
 | [What Are Tools Anyway?](https://arxiv.org/abs/2403.15452) | Readings | 选读（待确定精读项） | 未阅读 |
-| [CodeAct](https://arxiv.org/abs/2402.01030) | Readings | 选读（待确定精读项） | 未阅读 |
+| [CodeAct](https://arxiv.org/abs/2402.01030) · [论文目录](../../references/papers/2402.01030-codeact/) · [PDF](../../references/papers/2402.01030-codeact/paper.pdf) · [阅读笔记](../../references/papers/2402.01030-codeact/notes.md) | Readings | 选读（待确定精读项） | [以阅读笔记为准](../../references/papers/2402.01030-codeact/notes.md) |
 | [Toolformer](https://arxiv.org/abs/2302.04761) · [论文目录](../../references/papers/2302.04761-toolformer/) · [PDF](../../references/papers/2302.04761-toolformer/paper.pdf) · [阅读笔记](../../references/papers/2302.04761-toolformer/notes.md) | Readings | 选读（待确定精读项） | [以阅读笔记为准](../../references/papers/2302.04761-toolformer/notes.md) |
 | [XGrammar](https://arxiv.org/abs/2411.15100) | Readings | 选读（待确定精读项） | 未阅读 |
 | [OpenAI Chat Completions API](https://platform.openai.com/docs/api-reference/chat/create) | References | 参考 | 未阅读 |

@@ -25,14 +25,14 @@
 
 | 资料 | 官网分类 | 阅读优先级 | 状态 |
 | --- | --- | --- | --- |
-| [OpenHands: How to Create Effective Agent Skills](https://www.openhands.dev/blog/20260227-creating-effective-agent-skills) | Readings | 选读（待确定精读项） | 未阅读 |
+| [OpenHands: How to Create Effective Agent Skills](https://www.openhands.dev/blog/20260227-creating-effective-agent-skills) · [资料目录](../../references/articles/openhands-effective-agent-skills/) · [PDF](../../references/articles/openhands-effective-agent-skills/article.pdf) · [阅读笔记](../../references/articles/openhands-effective-agent-skills/notes.md) | Readings | 选读（待确定精读项） | [以阅读笔记为准](../../references/articles/openhands-effective-agent-skills/notes.md) |
 | [SkillsBench](https://arxiv.org/abs/2602.12670) | Readings | 选读（待确定精读项） | 未阅读 |
-| [MemGPT](https://arxiv.org/abs/2310.08560) | Readings | 选读（待确定精读项） | 未阅读 |
+| [MemGPT](https://arxiv.org/abs/2310.08560) · [论文目录](../../references/papers/2310.08560-memgpt/) · [PDF](../../references/papers/2310.08560-memgpt/paper.pdf) · [阅读笔记](../../references/papers/2310.08560-memgpt/notes.md) | Readings | 选读（待确定精读项） | [以阅读笔记为准](../../references/papers/2310.08560-memgpt/notes.md) |
 | [Agent Workflow Memory (AWM)](https://arxiv.org/abs/2409.07429) | Readings | 选读（待确定精读项） | 未阅读 |
 | [Agent Skill Induction (ASI)](https://arxiv.org/abs/2504.06821) | Readings | 选读（待确定精读项） | 未阅读 |
 | [ReasoningBank](https://arxiv.org/abs/2509.25140) | Readings | 选读（待确定精读项） | 未阅读 |
 | [Mem0](https://arxiv.org/abs/2504.19413) | References | 参考 | 未阅读 |
-| [Reflexion](https://arxiv.org/abs/2303.11366) | References | 参考 | 未阅读 |
+| [Reflexion](https://arxiv.org/abs/2303.11366) · [论文目录](../../references/papers/2303.11366-reflexion/) · [PDF](../../references/papers/2303.11366-reflexion/paper.pdf) · [阅读笔记](../../references/papers/2303.11366-reflexion/notes.md) | References | 参考 | [以阅读笔记为准](../../references/papers/2303.11366-reflexion/notes.md) |
 | [ExpeL](https://arxiv.org/abs/2308.10144) | References | 参考 | 未阅读 |
 | [Agent S](https://arxiv.org/abs/2410.08164) | References | 参考 | 未阅读 |
 | [Synapse](https://arxiv.org/abs/2306.07863) | References | 参考 | 未阅读 |
