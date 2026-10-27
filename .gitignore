@@ -1,0 +1,58 @@
+# Local IDE settings
+.idea/
+.vscode/
+*.iml
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Credentials and local environment configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Python tooling caches and reports
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.ipynb_checkpoints/
+
+# Optional frontend tooling
+node_modules/
+
+# Local datasets and disposable model files
+/data/
+/models/pretrained/
+/models/test/
+**/temporary-checkpoints/
+
+# Disposable experiment tracking caches
+**/wandb/
+**/mlruns/
+
+# Local caches and temporary files
+.cache/
+tmp/
+temp/
+*.tmp
+*.bak
