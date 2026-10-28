@@ -16,6 +16,10 @@
 
 ## 目录与资源
 
+- 网站入口、用途和操作过程集中维护在根目录 `RESOURCES.md`，截图放在 `assets/`；根 README 通过相对 Markdown 链接提供全局导航，不堆放具体操作步骤。
+
+- 自编学习指南、速查文章直接平铺放在 `docs/`，配套可运行示例放在 `tests/`，文章使用相对链接关联示例；使用有意义的文件名，由根 README 导航，不为单篇资料建立子目录；`references/` 保存外部引用资料及其阅读笔记，不混入自编教程。
+
 - 每课目录位于 `lessons/<官方课次>-<英文主题>/`，例如 `lessons/1a-agent-overview/`。
 - 每课按需维护 `README.md`、`notes.md`、`experiments/` 和简短的 `experiments.md` 索引；论文列表和代码运行说明合并到本课 `README.md`。
 - README 仅在需要独立导航或运行说明时创建；公共约定集中在根 README。空目录使用 `.gitkeep`，添加实际文件后删除占位文件。

@@ -6,14 +6,21 @@
 - [课程作业](https://www.cmu-agents.com/#/assignments)
 - [课程说明与政策](https://www.cmu-agents.com/#/syllabus)
 
-## 学习导航
+## 全局导航
 
-- [课程学习索引](lessons/README.md)：23 个授课条目的笔记、资料与实验入口。
-- [官方完整日程](course/README.md)：30 个日程项，包括休课、项目时间与海报展示。
-- [从第一课开始](lessons/1a-agent-overview/README.md)。
-- [参考资料索引与维护方法](references/README.md)、[文献目录](references/bibliography.bib)与[论文与笔记](references/papers/)。
-- 综合作业：[Harness](assignments/harness/)、[Eval](assignments/eval/)、[Training](assignments/training/)。
-- [共享代码](src/agent_study/)、[综合项目](projects/)、[代码验证](tests/)。
+| 入口 | 内容 |
+| --- | --- |
+| [资源收集与操作说明](RESOURCES.md) | Docent、SWE-bench 等网站用途、案例入口与操作截图 |
+| [课程学习索引](lessons/README.md) | 每课笔记、实验与学习状态；[从第一课开始](lessons/1a-agent-overview/README.md) |
+| [官方完整日程](course/README.md) | 课程日期、主题与官方资源 |
+| [参考资料索引](references/README.md) | 外部论文、技术文章、原文与阅读笔记 |
+| [论文阅读建议](references/reading-guide.md) | 官网资料清单与个人阅读优先级 |
+| [Python 代码阅读指南](docs/python-for-java-developers.md) | 面向 Java 开发者的语言资料；[配套示例](tests/python_examples.py) |
+| [课程作业](assignments/) | [Harness](assignments/harness/)、[Eval](assignments/eval/)、[Training](assignments/training/) |
+| [综合项目](projects/) | 跨课实践与个人研究 |
+| [共享代码](src/agent_study/) | 实际跨课复用的组件 |
+| [测试与示例](tests/) / [维护脚本](scripts/) | 验证、语言练习与仓库工具 |
+| [协作约定](AGENTS.md) | 目录、文档、实验和版本管理规则 |
 
 课程资源核对日期：2026-10-27，学期：Fall 2026。已同步官网提供的课件、视频与阅读资料链接；官网尚未提供的资源在对应课程中标明。日期沿用官网，不进行时区换算。
 
@@ -26,6 +33,7 @@
 ```text
 cmu-ai-agents-study/
 ├── README.md                     # 项目介绍、导航与维护约定
+├── RESOURCES.md                  # 网站资源、操作过程与截图说明
 ├── AGENTS.md                     # 仓库协作约定
 ├── .gitignore                    # 临时文件与本地环境忽略规则
 ├── course/
@@ -56,11 +64,15 @@ cmu-ai-agents-study/
 │   ├── 13a-tree-search/
 │   ├── 13b-guest-lecture/
 │   └── 14a-guest-lecture/
+├── assets/                       # README 使用的截图等静态资源
+│   └── docent-run-transcript.png
+├── docs/                         # 自编学习文章
+│   └── python-for-java-developers.md
 ├── references/
 │   ├── README.md                 # 论文、技术文章与阅读笔记的统一索引
 │   ├── reading-guide.md          # 官网资料完整清单与个人阅读建议
 │   ├── bibliography.bib          # 统一文献目录
-│   ├── articles/                 # 每篇技术文章包含 article.pdf 和 notes.md
+│   ├── articles/                 # 外部文章原文与阅读笔记
 │   │   ├── anthropic-building-effective-agents/
 │   │   ├── anthropic-effective-context-engineering/
 │   │   ├── anthropic-writing-effective-tools/
@@ -83,7 +95,9 @@ cmu-ai-agents-study/
 │   ├── eval/
 │   └── training/
 ├── projects/                     # 综合项目
-├── tests/                        # 关键行为验证
+├── tests/                        # 关键行为验证与学习示例
+│   ├── python_examples.py         # Python 语法示例
+│   └── test_update_bibliography.py
 └── scripts/
     └── update_bibliography.py     # 从论文索引同步 arXiv 元数据和 PDF 路径
 ```
@@ -123,7 +137,7 @@ README 集中保留在根目录、课程索引、完整日程、统一论文索�
 结合四年 Java 开发经验，以 Agent 应用开发与服务化交付为实践目标。下面是个人学习顺序建议，官方课次与日程保持原样。
 
 | 阶段 | 课次 | 实践目标 |
-| --- | --- | --- |
+| --- | --- | --- | --- |
 | 基础能力 | 1a → 1b → 2a → 2b → 3a | 逐步实现工具调用、上下文管理、记忆与规划，推进 Harness 作业 |
 | 应用与评估 | 3b → 4a → 5b → 7b → 9a | 选择一种应用深入实践，建立固定任务集，推进 Eval 作业 |
 | 训练方法 | 4b → 5a → 6a → 6b | 理解 SFT、RL 与训练系统，推进 Training 作业 |
