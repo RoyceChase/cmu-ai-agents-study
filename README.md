@@ -148,6 +148,42 @@ Python 随课程实验补充，先掌握环境管理、模块、类型提示、�
 
 综合项目可以选择“Java 代码库分析与问题定位 Agent”，串联代码检索、工具执行、任务状态、评估和故障分析。面试准备以可运行项目、固定评估集、失败案例和设计取舍为证据，课程完成状态与项目能力分别记录。
 
+## 本地 Python 环境
+
+使用 Python **3.14**，先在电脑上安装该版本，再在仓库根目录执行下面的命令。Windows 和 macOS 分别创建自己的 `.venv`，不复制或提交虚拟环境目录。
+
+### Windows（PowerShell）
+
+```powershell
+# 确认 Python 3.14 可用
+py -3.14 --version
+
+# 在项目根目录创建虚拟环境
+py -3.14 -m venv .venv
+
+# 检查虚拟环境的解释器版本
+.\.venv\Scripts\python.exe --version
+```
+
+### macOS
+
+```bash
+# 确认 Python 3.14 可用
+python3.14 --version
+
+# 在项目根目录创建虚拟环境
+python3.14 -m venv .venv
+
+# 检查虚拟环境的解释器版本
+.venv/bin/python --version
+```
+
+Windows 命令需要系统提供 `py` 启动器；若未安装，可用已安装 Python 3.14 的解释器完整路径替代。macOS 若找不到 `python3.14`，先确认安装及 PATH 配置，不要直接换成版本不明的 `python`。
+
+IDEA 的项目解释器与运行配置选择本项目虚拟环境中的解释器：Windows 为 `.venv/Scripts/python.exe`，macOS 为 `.venv/bin/python`。直接使用上述解释器路径运行脚本，无需激活环境。首次使用每台电脑时创建一次即可，日常 `git pull` 后不必重建。
+
+API 密钥按需临时设置为环境变量，代码读取 `DEEPSEEK_API_KEY`；仓库和共享运行配置中只写变量名或占位值。
+
 ## 学习流程
 
 1. 对照官方课程安排，记录本课课件、视频、阅读材料与参考资料。
