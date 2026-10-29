@@ -32,6 +32,8 @@ def get_order_status(order_id: str) -> dict[str, str]:
     orders = {
         "A001": "已发货",
         "A002": "待支付",
+        "A003": "已取消",
+        "A004": "已完成并关闭",
     }
 
     status = orders.get(order_id)
@@ -130,7 +132,7 @@ def run_order_agent(user_prompt: str, *, client: OpenAI, max_rounds: int = 4) ->
 
 def main() -> None:
     with AgentInvokeUtils.get_basic_client() as client:
-        answer = run_order_agent("帮我查询下订单", client=client)
+        answer = run_order_agent("帮我查询下订单,订单号是A003", client=client)
         print("最终回复：", answer)
 
 
