@@ -6,7 +6,7 @@
 | --- | --- | --- | --- |
 | 1a | Tue, Aug 25 | [Course Overview: What Is an Agent?](1a-agent-overview/README.md) | 未开始 |
 | 1b | Thu, Aug 27 | [Agent Capabilities 1: Tool Use](1b-tool-use/README.md) | 未开始 |
-| 2a | Tue, Sep 1 | [Agent Capabilities 2: Context Management for Long-Context Agents](2a-context-management/README.md) | 未开始 |
+| 2a | Tue, Sep 1 | [Agent Capabilities 2: Context Management for Long-Context Agents](2a-context-management/README.md) | 进行中 |
 | 2b | Thu, Sep 3 | [Agent Capabilities 3: Skills and Memory](2b-skills-and-memory/README.md) | 未开始 |
 | 3a | Tue, Sep 8 | [Agent Capabilities 4: Planning, Task Decomposition, and Multi-Agent Coordination](3a-planning-and-coordination/README.md) | 未开始 |
 | 3b | Thu, Sep 10 | [Domains 1: Coding Agents](3b-coding-agents/README.md) | 未开始 |

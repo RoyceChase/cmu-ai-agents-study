@@ -16,6 +16,7 @@
 ## 官方资源
 
 - [官方课表](https://www.cmu-agents.com/#/schedule)
+- [本地课件](lecture-02-tool-use.pdf)（2026-11-04 收录，原样保存）
 - [课件：Lecture 2 slides](https://www.cmu-agents.com/slides/lecture-02-tool-use.pdf)
 - [视频：Lecture 2 recording](https://www.youtube.com/watch?v=jXChFB4JSyw&list=PLSN0qpDfUvTM&index=2)
 

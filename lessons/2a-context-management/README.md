@@ -16,6 +16,7 @@
 ## 官方资源
 
 - [官方课表](https://www.cmu-agents.com/#/schedule)
+- [本地课件](lecture-03-long-context.pdf)（2026-11-04 收录，原样保存）
 - [课件：Lecture 3 slides](https://www.cmu-agents.com/slides/lecture-03-long-context.pdf)
 - [视频：Lecture 3 recording](https://www.youtube.com/watch?v=AiwCCvFW1uE&list=PLSN0qpDfUvTM&index=3)
 
