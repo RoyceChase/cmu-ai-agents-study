@@ -29,6 +29,7 @@ Toolformer 网页元数据已于 2026-10-27 核对；arXiv 页面列出 v1。本
 | How to Create Effective Agent Skills · OpenHands | [官方网页](https://www.openhands.dev/blog/20260227-creating-effective-agent-skills) | [PDF](articles/openhands-effective-agent-skills/article.pdf) | [阅读笔记](articles/openhands-effective-agent-skills/notes.md) | [2b](../lessons/2b-skills-and-memory/README.md) |
 | Don't Sleep on Single-agent Systems · OpenHands | [官方网页](https://www.openhands.dev/blog/dont-sleep-on-single-agent-systems) | [PDF](articles/openhands-single-agent-systems/article.pdf) | [阅读笔记](articles/openhands-single-agent-systems/notes.md) | [3a](../lessons/3a-planning-and-coordination/README.md)、[7b](../lessons/7b-openhands/README.md)、[9a](../lessons/9a-orchestration-and-monitoring/README.md) |
 | Diagnosing a performance regression on Terminal-Bench with Docent · Transluce / The Docent Team | [官方网页](https://transluce.org/docent/blog/terminal-bench) | [PDF](articles/transluce-terminal-bench-regression/article.pdf) | [阅读笔记](articles/transluce-terminal-bench-regression/notes.md) | [9a](../lessons/9a-orchestration-and-monitoring/README.md) |
+| CMU Lecture 1：Course Overview: What Is an Agent? · naRuTo1325 | 用户提供；原文文章链接待补 | [PDF](articles/naruto1325-cmu-lecture-1/article.pdf) | [资料说明与阅读笔记](articles/naruto1325-cmu-lecture-1/notes.md) | [1a](../lessons/1a-agent-overview/README.md)（第三方学习笔记） |
 
 技术文章使用 `articles/<机构>-<主题>/`，网页导出原文保存为 `article.pdf`，阅读笔记保存为 `notes.md`。记录来源、发布日期、快照日期与阅读状态；不额外创建分类索引或单篇 README。网页保存为 PDF 不改变原资料的类型。
 
@@ -135,4 +136,4 @@ python scripts/update_bibliography.py --metadata-file .cache/arxiv.xml
 - 高亮和页边注释用于阅读过程中的定位。需要持久保存时，另存为同一论文目录中的 `paper-annotated.pdf`，并在对应笔记中添加链接；批注副本也可纳入 Git。
 - 关键理解、疑问和结论应整理进 Markdown，不只留在高亮中。PDF 是二进制文件，不便查看逐行差异或合并多人修改，因此不必每次高亮后都单独提交副本。
 
-当前已收录优先清单中的 8 篇论文原文和 6 篇技术文章。新下载的 6 篇使用明确的版本链接；原有两篇的本地版本仍待核对。各篇阅读状态以对应笔记为准，新增笔记模板不代表已阅读。
+当前已收录优先清单中的 8 篇论文原文和 7 篇技术文章（含第三方课程学习笔记）。新下载的 6 篇使用明确的版本链接；原有两篇的本地版本仍待核对。各篇阅读状态以对应笔记为准，新增笔记模板不代表已阅读。

@@ -31,6 +31,10 @@
 
 论文原文和阅读笔记统一维护在 `references/papers/<论文ID>-<简称>/`，通过本 README 的相对 Markdown 链接访问。来源、版本、获取日期和阅读状态在统一笔记中维护；课程特定思考写入本课 `notes.md`。维护方法见 [论文索引](../../references/README.md)。
 
+## 第三方辅助笔记
+
+- [naRuTo1325：Lecture 1 学习笔记 PDF](../../references/articles/naruto1325-cmu-lecture-1/article.pdf) · [来源说明与阅读记录](../../references/articles/naruto1325-cmu-lecture-1/notes.md)。用户提供的网页导出，作为理解辅助；不是官方讲义，文中观点与案例尚未逐项核验。
+
 ## 代码实验
 
 本课实验放在 `experiments/<实验名>/`，代码、配置、结果和最终模型随实验保存，运行方式与结论写入该实验的 `notes.md`。已有实验见 [实验索引](experiments.md)。跨课复用组件按需提取到 `../../src/agent_study/`；当前尚未建立课程实验。

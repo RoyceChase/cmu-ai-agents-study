@@ -1,6 +1,4 @@
 import os
-from typing import Literal
-
 from openai import OpenAI, Stream, omit
 from openai.types.chat import (
     ChatCompletion,
@@ -10,6 +8,7 @@ from openai.types.chat import (
     ChatCompletionToolUnionParam,
     ChatCompletionUserMessageParam,
 )
+from typing import Literal
 
 
 def get_basic_client() -> OpenAI:
@@ -24,15 +23,15 @@ def get_basic_client() -> OpenAI:
 
 
 def invoke_api_non_stream(
-    user_prompt: str,
-    *,
-    client: OpenAI,
-    model: str = "deepseek-flash",
-    reasoning_effort: Literal["low", "medium", "high"] = "low",
-    think_type: Literal["enabled", "disabled"] = "disabled",
-    system_prompt: str = "You are a helpful assistant",
-    tools: list[ChatCompletionToolUnionParam] | None = None,
-    messages: list[ChatCompletionMessageParam] | None = None,
+        user_prompt: str,
+        *,
+        client: OpenAI,
+        model: str = "deepseek-flash",
+        reasoning_effort: Literal["low", "medium", "high"] = "low",
+        think_type: Literal["enabled", "disabled"] = "disabled",
+        system_prompt: str = "You are a helpful assistant",
+        tools: list[ChatCompletionToolUnionParam] | None = None,
+        messages: list[ChatCompletionMessageParam] | None = None,
 ) -> ChatCompletion:
     # client 由调用方注入，复用连接配置，也方便测试时替换成模拟客户端。
     # messages 优先：工具循环需要完整历史，此时不再使用两个 prompt 参数构建消息。
@@ -48,8 +47,8 @@ def invoke_api_non_stream(
 
 
 def build_messages(
-    user_prompt: str,
-    system_prompt: str,
+        user_prompt: str,
+        system_prompt: str,
 ) -> list[ChatCompletionMessageParam]:
     return [
         ChatCompletionSystemMessageParam(
@@ -64,14 +63,14 @@ def build_messages(
 
 
 def invoke_api_stream(
-    user_prompt: str,
-    *,
-    client: OpenAI,
-    model: str = "deepseek-flash",
-    reasoning_effort: Literal["low", "medium", "high"] = "low",
-    think_type: Literal["enabled", "disabled"] = "disabled",
-    system_prompt: str = "You are a helpful assistant",
-    tools: list[ChatCompletionToolUnionParam] | None = None,
+        user_prompt: str,
+        *,
+        client: OpenAI,
+        model: str = "deepseek-flash",
+        reasoning_effort: Literal["low", "medium", "high"] = "low",
+        think_type: Literal["enabled", "disabled"] = "disabled",
+        system_prompt: str = "You are a helpful assistant",
+        tools: list[ChatCompletionToolUnionParam] | None = None,
 ) -> Stream[ChatCompletionChunk]:
     return client.chat.completions.create(
         model=model,
