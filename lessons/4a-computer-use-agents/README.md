@@ -18,6 +18,7 @@
 
 - [官方课表](https://www.cmu-agents.com/#/schedule)
 - [课件：Lecture 7 slides](https://www.cmu-agents.com/slides/lecture-07-computer-use-agents.pdf)
+- [本地课件 PDF](lecture-07-computer-use-agents.pdf)（随附原件，课件链接核对于 2026-11-12）
 - [视频：Lecture 7 recording](https://www.youtube.com/watch?v=jwGluLrrqjQ&list=PLSN0qpDfUvTM&index=7)
 
 ## 论文与参考资料

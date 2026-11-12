@@ -17,6 +17,7 @@
 
 - [官方课表](https://www.cmu-agents.com/#/schedule)
 - [课件：Lecture 9 slides](https://www.cmu-agents.com/slides/lecture-09-rl-basics.pdf)
+- [本地课件 PDF](lecture-09-rl-basics.pdf)（随附原件，课件链接核对于 2026-11-12）
 - [视频：Lecture 9 recording](https://www.youtube.com/watch?v=paAcPaaYZGM&list=PLSN0qpDfUvTM&index=9)
 
 ## 论文与参考资料

@@ -18,6 +18,7 @@
 
 - [官方课表](https://www.cmu-agents.com/#/schedule)
 - [课件：Lecture 8 slides](https://www.cmu-agents.com/slides/lecture-08-sft.pdf)
+- [本地课件 PDF](lecture-08-sft.pdf)（随附原件，课件链接核对于 2026-11-12）
 - [视频：Lecture 8 recording](https://www.youtube.com/watch?v=O3HSU0AoILc&list=PLSN0qpDfUvTM&index=8)
 
 ## 论文与参考资料

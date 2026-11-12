@@ -17,6 +17,7 @@
 
 - [官方课表](https://www.cmu-agents.com/#/schedule)
 - [课件：Lecture 5 slides](https://www.cmu-agents.com/slides/lecture-05-planning.pdf)
+- [本地课件 PDF](lecture-05-planning.pdf)（随附原件，课件链接核对于 2026-11-12）
 - [视频：Lecture 5 recording](https://www.youtube.com/watch?v=S8v-dR4s29M&list=PLSN0qpDfUvTM&index=5)
 
 ## 论文与参考资料

@@ -17,6 +17,7 @@
 
 - [官方课表](https://www.cmu-agents.com/#/schedule)
 - [课件：Lecture 13 slides](https://www.cmu-agents.com/slides/lecture-13-agent-safety.pdf)
+- [本地课件 PDF](lecture-13-agent-safety.pdf)（随附原件，课件链接核对于 2026-11-12）
 - 视频：官网暂未提供，后续核对。
 
 ## 论文与参考资料

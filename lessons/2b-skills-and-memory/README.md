@@ -17,6 +17,7 @@
 
 - [官方课表](https://www.cmu-agents.com/#/schedule)
 - [课件：Lecture 4 slides](https://www.cmu-agents.com/slides/lecture-04-memory-and-skills.pdf)
+- [本地课件 PDF](lecture-04-memory-and-skills.pdf)（随附原件，课件链接核对于 2026-11-12）
 - [视频：Lecture 4 recording](https://www.youtube.com/watch?v=6zigF2a-2Pw&list=PLSN0qpDfUvTM&index=4)
 
 ## 论文与参考资料

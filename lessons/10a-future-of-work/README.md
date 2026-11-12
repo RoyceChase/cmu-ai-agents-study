@@ -17,7 +17,8 @@
 ## 官方资源
 
 - [官方课表](https://www.cmu-agents.com/#/schedule)
-- 课件：官网暂未提供，后续核对。
+- [课件：Zora Wang lecture slides](https://www.cmu-agents.com/slides/2026-10-27-zora-wang.pdf)
+- [本地课件 PDF](2026-10-27-zora-wang.pdf)（随附原件，课件链接核对于 2026-11-12）
 - 视频：官网暂未提供，后续核对。
 
 ## 论文与参考资料

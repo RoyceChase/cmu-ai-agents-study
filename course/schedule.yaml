@@ -149,6 +149,7 @@ entries:
     title: "Agents and the Future of Work"
     module: "Interaction and Projects"
     lecturer: {"name": "Zora Wang", "url": "https://zorazrw.github.io/"}
+    slides: {"label": "Zora Wang lecture slides", "url": "/slides/2026-10-27-zora-wang.pdf"}
     directory: "lessons/10a-future-of-work"
   - code: "10b"
     date: "Thu, Oct 29"
@@ -156,6 +157,7 @@ entries:
     module: "Interaction and Projects"
     lecturer: {"name": "Saujas Vaduguru", "url": "https://saujasv.github.io/"}
     milestone: "Assignment 3 due: Training"
+    slides: {"label": "Lecture 18 slides", "url": "/slides/lecture-18-multi-agent-systems.pdf"}
     directory: "lessons/10b-multi-agent-interaction"
   - code: "11a"
     date: "Tue, Nov 3"
