@@ -16,7 +16,7 @@
 ## 官方资源
 
 - [官方课表](https://www.cmu-agents.com/#/schedule)
-- 课件：官网暂未提供，后续核对。
+- [课件：Lecture 20 · Search over Trajectories](https://www.cmu-agents.com/slides/lecture-20-search-basics.pdf)（官网链接核对于 2026-11-17）
 - 视频：官网暂未提供，后续核对。
 
 ## 论文与参考资料
